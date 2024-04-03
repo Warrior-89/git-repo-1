@@ -43,7 +43,7 @@ jobs:
       - name: Upload file from Build to GCP Bucket
         uses: 'google-github-actions/upload-cloud-storage@v2'
         with:
-          path: "build/*"
+          path: "build/"
           destination: xyzbucket-incometax123
           parent: false
 
