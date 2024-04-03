@@ -8,6 +8,9 @@ on:
 
 jobs:
   test:
+    permissions:
+      contents: 'read'
+      id-token: 'write'
     environment: testing
     runs-on: ubuntu-latest
     env:
