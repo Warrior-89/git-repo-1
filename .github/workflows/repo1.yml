@@ -40,7 +40,7 @@ jobs:
       - name: Upload file from Build to GCP Bucket
         uses: 'google-github-actions/upload-cloud-storage@v2'
         with:
-          path: /Users/raghav/new-test-repo/build
+          path: /Users/raghav/new-test-repo/git-repo-1/build
           destination: xyzbucket-incometax123
 
         
