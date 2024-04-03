@@ -45,6 +45,7 @@ jobs:
         with:
           path: "build/*"
           destination: xyzbucket-incometax123
+          parent: false
 
         
 
