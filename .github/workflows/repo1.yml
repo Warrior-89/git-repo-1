@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: 21.x
 
-      - name: install yarn && yarn run build
+      - name: install a yarn && yarn run build
         run: yarn install && yarn run build
       
       - name: Upload file from Build to GCP Bucket
